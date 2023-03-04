@@ -79,8 +79,10 @@ a {
 
 .header {
     position: relative;
+    display: flex;
     background: #e6f0ff;
     height: calc(100vh - 92px);
+    align-items: center;
 }
 
 .navbar ul {
@@ -111,11 +113,6 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-}
-
-.hero {
-    padding-top: 130px;
-    /* margin-top: 130px; */
 }
 
 .hero .infor {
